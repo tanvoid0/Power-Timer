@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WinRex.exe" version="1.0.0.0" publicKeyToken="00ac58063c1bc658" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="b94ee51cd23983efb79c4c3f15d3ae61_wAH_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WinRex" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WinRex.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WinRex.exe" size="125936">
+      <assemblyIdentity name="WinRex" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1g0rGpYwayTyjPdd+kruCUxdENu2xe0j9jyapw04tTM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="b94ee51cd23983efb79c4c3f15d3ae61_wAH_icon.ico" size="54326">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5eq4ay9u3Qk3CqFIYR5lnHDc1eeBILg3GFbZ5nyM3MA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WinRex.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-607JTCU\Tanveer" issuerKeyHash="7ec5afd1902c9b36fc705f5340473b5707e7a229" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>We3A8nrSH7Itq1hJAhZaQZlbDufddFrwp3PaewXecVg=</DigestValue></Reference></SignedInfo><SignatureValue>KJriy/LAdmVM0qjRusyC2ldh5sGPuRDyzCDvToVa6x+3qCm21E8ryy57nsLfAmm22eows0zHM4bGPgo93SVOKIX2Xh8kFXTMqWifwq7OZebgKgzdScWmoEhWYvAgGQXUTYJqfxxGncf29vxGoIpbFXa7ooOOGKWkj4xkH+aeBCQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tSdxnmT1fPJttC1i3WZWW8+raQXaXwnCR3K2EBu5rQ1SYyTTEHvW+jkOhzWCLGl3PZHCyorvUCV1v3ftnvf+uOesmg3geO0N0IEzFJaHymugbdff//MBhs93uFC9ugaxu2KqHKV4/nGOMLSpWG7Li4eLVSXQpaS+26YSiK4OgME=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5871de057bda73a7f05a74dde70e5b99415a16024958ab2db21fd27af2c0ed59" Description="" Url=""><as:assemblyIdentity name="WinRex.exe" version="1.0.0.0" publicKeyToken="00ac58063c1bc658" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-607JTCU\Tanveer</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zJjkEt+ggWFoAbmxMfza3fs6STisS1uSaj6OnG2BZqo=</DigestValue></Reference></SignedInfo><SignatureValue>RH7atwFspIlM71VQYz0momkXXC43bOhkqxJL8FvC4UYyy64HsKCTcl2YKzU5aJHiiUlXyoT1mk3Rp7z+rzu6A5xqPHbqCJmejB9B6bjvzZJRwtUupq63NuPa49DWKI+heiT7RuvlNEig3Qmha8887z7xHZONgEVIoq2NTp693eI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tSdxnmT1fPJttC1i3WZWW8+raQXaXwnCR3K2EBu5rQ1SYyTTEHvW+jkOhzWCLGl3PZHCyorvUCV1v3ftnvf+uOesmg3geO0N0IEzFJaHymugbdff//MBhs93uFC9ugaxu2KqHKV4/nGOMLSpWG7Li4eLVSXQpaS+26YSiK4OgME=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQQf0wQps4QKBFm46l5RqtpjANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtADYAMAA3AEoAVABDAFUAXABUAGEAbgB2AGUAZQByMB4XDTE4MDMxMjIxMDkxOVoXDTE5MDMxMzAzMDkxOVowOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQA2ADAANwBKAFQAQwBVAFwAVABhAG4AdgBlAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtSdxnmT1fPJttC1i3WZWW8+raQXaXwnCR3K2EBu5rQ1SYyTTEHvW+jkOhzWCLGl3PZHCyorvUCV1v3ftnvf+uOesmg3geO0N0IEzFJaHymugbdff//MBhs93uFC9ugaxu2KqHKV4/nGOMLSpWG7Li4eLVSXQpaS+26YSiK4OgMECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBUBjFrzgZEo7Liu71HW8Lk3k70G6AEi7oAj5zJOCeATBCDcw88SAGDQCio4hdGy2eN20Jzgtxs1wYHkL6LOfUhufwXYK8HvrDQR6R2zHfci9jGEF+bHfKR4Rs+x7aDJ9HDbUECqpbGE6Mw75Bz616xZ1ob7MAEBkT+nbcssBhoCQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

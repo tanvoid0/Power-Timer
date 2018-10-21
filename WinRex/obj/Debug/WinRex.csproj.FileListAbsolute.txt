@@ -1,0 +1,14 @@
+C:\Users\Tanveer\source\repos\WinRex\WinRex\bin\Debug\WinRex.exe.config
+C:\Users\Tanveer\source\repos\WinRex\WinRex\bin\Debug\WinRex.exe
+C:\Users\Tanveer\source\repos\WinRex\WinRex\bin\Debug\WinRex.pdb
+C:\Users\Tanveer\source\repos\WinRex\WinRex\obj\Debug\WinRex.csprojResolveAssemblyReference.cache
+C:\Users\Tanveer\source\repos\WinRex\WinRex\obj\Debug\WinRex.Form1.resources
+C:\Users\Tanveer\source\repos\WinRex\WinRex\obj\Debug\WinRex.Properties.Resources.resources
+C:\Users\Tanveer\source\repos\WinRex\WinRex\obj\Debug\WinRex.csproj.GenerateResource.Cache
+C:\Users\Tanveer\source\repos\WinRex\WinRex\obj\Debug\WinRex.csproj.CoreCompileInputs.cache
+C:\Users\Tanveer\source\repos\WinRex\WinRex\obj\Debug\WinRex.exe
+C:\Users\Tanveer\source\repos\WinRex\WinRex\obj\Debug\WinRex.pdb
+C:\Users\Tanveer\source\repos\WinRex\WinRex\bin\Debug\WinRex.exe.manifest
+C:\Users\Tanveer\source\repos\WinRex\WinRex\bin\Debug\WinRex.application
+C:\Users\Tanveer\source\repos\WinRex\WinRex\obj\Debug\WinRex.exe.manifest
+C:\Users\Tanveer\source\repos\WinRex\WinRex\obj\Debug\WinRex.application
